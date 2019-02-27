@@ -1,0 +1,45 @@
+1\
+dbsets.db://2+nums*db_name_length
+nums:2Byte
+{
+	dbname1:db_name_length B//库名重复n个
+}
+2\/////////////////////////////////////////////////////////
+db_header.db: //
+
+tbl_num:2Byte
+{
+	tbl_address:4Byte//表偏移
+	tbl_coldef_addr:4Byte//列定义偏移
+	max_row_num:4Byte//最大行数
+	row_num:4Byte//有效行数
+	row_size:4Byte//每行大小
+	col_num:4Byte//行数
+	tbl_name:tbl_name_length B//表名
+}
+{
+	{
+		col_size:2Byte
+		col_name:col_name_length
+	}
+}
+3\////////////////////////////////////////////////////////////
+db.db//tbl_num*row_num*col_size
+{//
+	table[row_num*col_size]
+}
+///////////////////////////////////////////////////////////////////
+
+数据约束类型：CheckBox，Val_range，Enum,Flag, Reference
+CheckBox{是:1,否:0}   
+Enum{Val1:1,Val2:2,Val3:3}   
+Flag{Val1:1,Val2:2,Val3:4} 
+Reference{数据库名,表名,显示列}//Db:数据库名，Table:表
+示例：Reference{Db}：数据库列表 ；
+      Reference{Db,Table}:与相邻前一列配合，前一列为数据库名，显示当前库表名
+	  Reference{xx_Db,Table}:显示指定库xx_Db的表名列表。
+以上支持数据类型：int，short,char
+Val_range{min_val,max_val}   
+
+通道定义：
+类型：表：更新整表；单行：更新一行（参数：行号）；单列：更新指定列，按记录更新（参数：行号）；字段：更新单个字段（参数：表和行、列）

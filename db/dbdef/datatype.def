@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataTypeDescription >
+ <field id="0" name="undefined"  size="0" dataprop="0" />
+ <field id="1"  name="int"  size="4" dataprop="1"/>
+ <field id="2" name="float"  size="4"  dataprop="1"/>
+ <field id="3" name="double"  size="8" dataprop="1"/>
+ <field id="4" name="short"  size="2" dataprop="1"/>
+ <field id="5" name="char"  size="1" dataprop="1"/>
+ <field id="11" name="string"  size="1" dataprop="2"/>
+ <field id="12" name="varByte"  size="1" dataprop="3"/>
+ <field id="13" name="image"  size="1" dataprop="3"/>
+</dataTypeDescription >

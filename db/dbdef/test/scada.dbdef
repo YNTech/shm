@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding='UTF-8' ?>
+<RTDbDescription dbname="SCADA">
+	<tbl name="tbl1" row_num="1000">
+		<col name="ind" dispname="index" dtype="1" tplen="1" data_constraint="" default_val=""/>
+		<col name="name" dispname="Ãû³Æ" dtype="11" tplen="32" data_constraint="" default_val=""/>
+		<col name="type" dispname="ÀàÐÍ" dtype="5" tplen="1" data_constraint="Enum{Val1:1,Val2:2,Val3:3}" default_val=""/>
+	</tbl>
+</RTDbDescription>
+

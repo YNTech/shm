@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<RTDbDescription dbname="NetSettings">
+  <tbl row_num="300" name="Nodes">
+    <col default_val="" dispname="名称" dtype="11" data_constraint="" tplen="16" name="name"/>
+    <col default_val="" dispname="IP" dtype="11" data_constraint="" tplen="16" name="IP"/>
+  </tbl>
+  <tbl row_num="300" name="PS">
+    <col default_val="" dispname="node" dtype="1" data_constraint="Reference{NetSettings,Nodes,name}" tplen="1" name="node"/>
+    <col default_val="" dispname="db" dtype="1" data_constraint="Reference{Db}" tplen="1" name="db"/>
+    <col default_val="" dispname="table" dtype="1" data_constraint="Reference{db_1,Table}" tplen="1" name="tbl"/>
+    <col default_val="0" dispname="Publish" dtype="5" data_constraint="Enum{HLA:1,DDS:2,Socket:4}" tplen="1" name="publish"/>
+    <col default_val="0" dispname="Subscribe" dtype="5" data_constraint="Flag{HLA:1,DDS:2,Socket:4}" tplen="1" name="subscribe"/>
+  </tbl>
+  <tbl row_num="10" name="Dll">
+    <col default_val="" dispname="类别" dtype="5" data_constraint="Enum{HLA:1,DDS:2,Socket:4}" tplen="1" name="libtype"/>
+    <col default_val="" dispname="动态库" dtype="11" data_constraint="" tplen="16" name="libname"/>
+  </tbl>
+</RTDbDescription>

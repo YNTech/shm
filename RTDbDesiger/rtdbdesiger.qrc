@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>Resources/create_debsets.png</file>
+        <file>Resources/db.png</file>
+        <file>Resources/dbsets.png</file>
+        <file>Resources/def_add.png</file>
+        <file>Resources/def_delete.png</file>
+        <file>Resources/def_save.png</file>
+        <file>Resources/open_debsets.png</file>
+        <file>Resources/save.png</file>
+        <file>Resources/saves.png</file>
+        <file>Resources/table.png</file>
+    </qresource>
+</RCC>

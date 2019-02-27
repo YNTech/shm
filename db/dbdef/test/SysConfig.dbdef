@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding='UTF-8' ?>
+<RTDbDescription dbname="SysConfig">
+	<tbl name="Nodes" row_num="300">
+		<col name="name" dispname="名称" dtype="11" tplen="16" data_constraint="" default_val=""/>
+		<col name="host" dispname="主机" dtype="11" tplen="32" data_constraint="" default_val=""/>
+		<col name="desc" dispname="描述" dtype="11" tplen="256" data_constraint="" default_val=""/>
+		<col name="nodeTyp" dispname="状态" dtype="4" tplen="1" data_constraint="Flag{当前节点:1,服务器:2,成员:3}" default_val="0"/>
+	</tbl>
+	<tbl name="PS" row_num="2000">
+		<col name="node" dispname="节点" dtype="1" tplen="1" data_constraint="Reference{SysConfig,Nodes,name}" default_val=""/>
+		<col name="channel" dispname="通道" dtype="1" tplen="1" data_constraint="Reference{SysConfig,channel,name}" default_val=""/>
+		<col name="Plugin" dispname="网络环境" dtype="1" tplen="1" data_constraint="Reference{SysConfig,表名,显示列}" default_val=""/>
+		<col name="PubAndSub" dispname="发布/订阅" dtype="5" tplen="1" data_constraint="Flag{发布:1,订阅:2}" default_val="0"/>
+	</tbl>
+	<tbl name="plugin" row_num="100">
+		<col name="name" dispname="插件名称" dtype="11" tplen="16" data_constraint="" default_val=""/>
+		<col name="type" dispname="类型" dtype="5" tplen="1" data_constraint="Enum{Socket:1,DDS:2,HLA:4}" default_val=""/>
+		<col name="fileName" dispname="文件名" dtype="11" tplen="32" data_constraint="" default_val=""/>
+		<col name="desc" dispname="描述" dtype="11" tplen="256" data_constraint="" default_val=""/>
+	</tbl>
+	<tbl name="channel" row_num="200">
+		<col name="name" dispname="名称" dtype="11" tplen="32" data_constraint="" default_val=""/>
+		<col name="type" dispname="类型" dtype="5" tplen="1" data_constraint="Enum{表:1,整行:2,定列:3,字段:4}" default_val="1"/>
+		<col name="db" dispname="db" dtype="1" tplen="1" data_constraint="Reference{Db}" default_val="-1"/>
+		<col name="tbl_id" dispname="table_id" dtype="1" tplen="1" data_constraint="Reference{Db,Table}" default_val="-1"/>
+		<col name="col_id" dispname="column_id" dtype="1" tplen="1" data_constraint="" default_val="-1"/>
+		<col name="updateCycle" dispname="更新周期" dtype="1" tplen="1" data_constraint="" default_val="5"/>
+	</tbl>
+	<tbl name="plugin_config" row_num="1000">
+		<col name="plgn" dispname="插件" dtype="1" tplen="1" data_constraint="Reference{SysConfig,plugin,name}" default_val=""/>
+		<col name="node" dispname="节点" dtype="1" tplen="1" data_constraint="Reference{SysConfig,Nodes,name}" default_val=""/>
+		<col name="connectPara" dispname="连接参数" dtype="11" tplen="128" data_constraint="" default_val=""/>
+	</tbl>
+</RTDbDescription>
+

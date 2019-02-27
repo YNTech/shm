@@ -1,0 +1,12 @@
+#ifndef RTDBNETEXT_GLOBAL_H
+#define RTDBNETEXT_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef RTDBNETEXT_LIB
+# define RTDBNETEXT_EXPORT Q_DECL_EXPORT
+#else
+# define RTDBNETEXT_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // RTDBNETEXT_GLOBAL_H

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding='UTF-8' ?>
+<RTDbDescription dbname="Model">
+	<tbl name="Table_0" row_num="1000">
+		<col name="ret" dispname="ret" dtype="1" tplen="1" data_constraint="Reference{SCADA,tbl1,name}" default_val=""/>
+		<col name="testArry" dispname="testArry" dtype="1" tplen="8" data_constraint="" default_val=""/>
+	</tbl>
+	<tbl name="Table_1" row_num="20"/>
+</RTDbDescription>
+

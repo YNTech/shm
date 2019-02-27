@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding='UTF-8' ?>
+<RTDbSets>
+	<dbname>SCADA</dbname>
+	<dbname>Model</dbname>
+	<dbname>NetSettings</dbname>
+</RTDbSets>
+

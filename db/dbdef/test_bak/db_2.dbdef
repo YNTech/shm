@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding='UTF-8' ?>
+<RTDbDescription dbname="db_2">
+	<tbl name="Table_0" row_num="1000">
+		<col name="ret" dispname="ret" dtype="1" tplen="1" data_constraint="Reference{db_1,tbl1,name}" default_val=""/>
+	</tbl>
+	<tbl name="Table_1" row_num="0"/>
+</RTDbDescription>
+

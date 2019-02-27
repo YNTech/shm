@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/open_debsets.png</file>
+        <file>netSetting.ui</file>
+        <file>Resources/load_dbdf.png</file>
+        <file>Resources/save.png</file>
+        <file>Resources/table.png</file>
+        <file>Resources/db.png</file>
+    </qresource>
+</RCC>

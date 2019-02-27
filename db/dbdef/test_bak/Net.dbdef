@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding='UTF-8' ?>
+<RTDbDescription dbname="Net">
+	<tbl name="scada_channel" row_num="100">
+		<col name="index" dispname="序号" dtype="1" tplen="1" data_constraint="" default_val=""/>
+		<col name="name" dispname="名称" dtype="11" tplen="1" data_constraint="" default_val=""/>
+		<col name="type" dispname="类型" dtype="5" tplen="1" data_constraint="Enum{库:1,表:2,单表:3}" default_val="1"/>
+		<col name="db_id" dispname="db_id" dtype="1" tplen="1" data_constraint="" default_val="-1"/>
+		<col name="tbl_id" dispname="table_id" dtype="1" tplen="1" data_constraint="" default_val=""/>
+	</tbl>
+</RTDbDescription>
+

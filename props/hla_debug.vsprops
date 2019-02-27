@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="hla_debug"
+	OutputDirectory="..\debug"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(PRTI1516_HOME)\include&quot;;..\hlalib\share;..\hlalib\pslib"
+		PreprocessorDefinitions="WIN32;_AFXDLL"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="prti1516d.lib pslib.lib"
+		AdditionalLibraryDirectories="&quot;$(PRTI1516_HOME)\lib\vc90&quot;;..\debug"
+	/>
+</VisualStudioPropertySheet>

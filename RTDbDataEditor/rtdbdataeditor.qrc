@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>Resources/cancel.png</file>
+        <file>Resources/editind.png</file>
+        <file>Resources/ok.png</file>
+        <file>Resources/rowset.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlarmBoard", "AlarmBoard\AlarmBoard.vcxproj", "{259727D9-F3CC-4426-8459-C949CE7B64A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlarmBoardExt", "AlarmBoardExt\AlarmBoardExt.vcxproj", "{F647D659-6D35-4016-8BEE-FFD68158D01D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{259727D9-F3CC-4426-8459-C949CE7B64A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{259727D9-F3CC-4426-8459-C949CE7B64A2}.Debug|Win32.Build.0 = Debug|Win32
+		{259727D9-F3CC-4426-8459-C949CE7B64A2}.Release|Win32.ActiveCfg = Release|Win32
+		{259727D9-F3CC-4426-8459-C949CE7B64A2}.Release|Win32.Build.0 = Release|Win32
+		{F647D659-6D35-4016-8BEE-FFD68158D01D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F647D659-6D35-4016-8BEE-FFD68158D01D}.Debug|Win32.Build.0 = Debug|Win32
+		{F647D659-6D35-4016-8BEE-FFD68158D01D}.Release|Win32.ActiveCfg = Release|Win32
+		{F647D659-6D35-4016-8BEE-FFD68158D01D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
