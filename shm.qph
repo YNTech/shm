@@ -1,0 +1,99 @@
+<!DOCTYPE QPH>
+<QPH sourcelanguage="en" language="zh_CN">
+<phrase>
+    <source>dbsets</source>
+    <target>数据库集</target>
+</phrase>
+<phrase>
+    <source>OK</source>
+    <target>确定</target>
+</phrase>
+<phrase>
+    <source>cancel</source>
+    <target>取消</target>
+</phrase>
+<phrase>
+    <source>error</source>
+    <target>错误</target>
+</phrase>
+<phrase>
+    <source>save</source>
+    <target>保存</target>
+</phrase>
+<phrase>
+    <source>DbSets:</source>
+    <target>数据库集：</target>
+</phrase>
+<phrase>
+    <source>Load database set definition of failure:</source>
+    <target>加载数据库集定义失败：</target>
+</phrase>
+<phrase>
+    <source>new database</source>
+    <target>新建库</target>
+</phrase>
+<phrase>
+    <source>rebuild dbsets</source>
+    <target>重建数据库集</target>
+</phrase>
+<phrase>
+    <source>close</source>
+    <target>关闭</target>
+</phrase>
+<phrase>
+    <source>new table</source>
+    <target>新建表</target>
+</phrase>
+<phrase>
+    <source>save and rebuild database</source>
+    <target>保存并重建数据库</target>
+</phrase>
+<phrase>
+    <source>rebuild database</source>
+    <target>重建数据库</target>
+</phrase>
+<phrase>
+    <source>dbsets name:</source>
+    <target>数据库集名称：</target>
+</phrase>
+<phrase>
+    <source>Save dbsets definition file failed:</source>
+    <target>数据库集名称：</target>
+</phrase>
+<phrase>
+    <source>Rebuilding the database failed:</source>
+    <target>重建数据库失败：</target>
+</phrase>
+<phrase>
+    <source>Save database definition file failed:</source>
+    <target>保存数据库集定义文件失败：</target>
+</phrase>
+<phrase>
+    <source>Prompt</source>
+    <target>提示</target>
+</phrase>
+<phrase>
+    <source>Rebuild the DbSets completed!</source>
+    <target>重建数据库集完成！</target>
+</phrase>
+<phrase>
+    <source>Rebuild the Db completed!</source>
+    <target>重建数据库完成！</target>
+</phrase>
+<phrase>
+    <source>OK</source>
+    <target>确定</target>
+</phrase>
+<phrase>
+    <source>Open RTDB</source>
+    <target></target>
+</phrase>
+<phrase>
+    <source>Edit</source>
+    <target>编辑</target>
+</phrase>
+<phrase>
+    <source>Open RTDB</source>
+    <target>打开实时库</target>
+</phrase>
+</QPH>
